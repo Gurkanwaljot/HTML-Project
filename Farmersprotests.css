@@ -1,0 +1,433 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: #1B4D3E;
+    min-width: 900px;
+    max-width: 1450px;
+    padding-bottom: 6em;
+    box-shadow: 5px 8px 8px 5px #0c0303;
+    color: #221811;
+}
+
+#wrapper {
+    background-color: #004225;
+    flex-direction: ro;
+}
+
+header {
+    height: 180px;
+    padding-bottom: 14px;
+    padding-left: 50px;
+    background-image: url("pictures/farmers_transparent.png");
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-color: #355E3B;
+    background-origin: content-box;
+    padding-top: 10px;
+}
+
+header h1 {
+    position: relative;
+    font-size: 2.5em;
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FCAE1E;
+}
+
+.nav {
+    width: 300px;
+    float: left;
+    font-size: 1.2em;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+}
+
+.nav a {
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+a:link {
+    color: rgb(190, 146, 32);
+}
+
+a:visited {
+    color: rgb(190, 146, 32);
+}
+
+a:hover {
+    color: lightgoldenrodyellow;
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+nav ul li {
+    padding-bottom: 25px;
+    border-bottom: 2px solid black;
+    padding-top: 10px;
+}
+
+#main {
+    background-color: #006400;
+    margin-left: 300px;
+    color: #FFFFFF;
+}
+
+.h2 {
+    font-size: 1.8em;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.h3 {
+    font-size: 1.6em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.h4 {
+    font-size: 1.3em;
+    padding-left: 30px;
+}
+
+.p {
+    font-size: 1em;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.dt {
+    font-size: 1.4em;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.dd {
+    font-size: 1em;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.footer {
+    background-color: #355E3B;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Times New Roman', Arial, serif;
+    font-size: 0.9em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #FFFFFF;
+}
+
+#farmersprotests {
+    background-image: url("pictures/farmersprotests.jpg");
+    background-size: cover;
+    height: 550px;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-right: 0em;
+}
+
+#farmbills {
+    background-image: url("pictures/farmbills.jpg");
+    background-size: cover;
+    height: 550px;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-right: 0em;
+}
+
+#protests {
+    background-image: url("pictures/protests.jpg");
+    background-size: cover;
+    height: 550px;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-right: 0em;
+}
+
+#farmers11 {
+    background-image: url("pictures/farmers11.jpg");
+    background-size: cover;
+    height: 550px;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-right: 0em;
+}
+
+#farmers26 {
+    float: left;
+    padding-bottom: 2em;
+    padding-right: 2em;
+    width: 250px;
+    height: 210px;
+    margin-left: 20px;
+}
+
+#carrally {
+    background-image: url("pictures/png1202Ncarrally-07.jpg");
+    background-size: cover;
+    height: 550px;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-right: 0em;
+}
+
+#present {
+    float: left;
+    padding-bottom: 2em;
+    padding-right: 2em;
+    width: 250px;
+    height: 210px;
+    margin-left: 20px;
+}
+
+.ul {
+    text-align: center;
+    list-style-type: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.ulref {
+    font-size: 1.0em;
+}
+
+.ulper {
+    font-size: 1.0em;
+    list-style-type: none;
+}
+
+@media only screen and (max-width:1024px) {
+    .body {
+        margin: 0em;
+        width: auto;
+        box-shadow: none;
+    }
+    #wrapper {
+        width: auto;
+        padding: 0em;
+    }
+    header {
+        border-bottom: 3px solid #355E3B;
+        padding-left: 1.5em;
+        background-size: 100px;
+        height: 100px;
+    }
+    header h1 {
+        margin-top: 0em;
+        margin-bottom: 1em;
+        padding-top: 1em;
+        padding-bottom: 0.4em;
+        font-size: 1.9em;
+    }
+    .nav {
+        float: none;
+        width: auto;
+        padding-top: 0em;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        font-size: 1em;
+    }
+    nav ul {
+        margin: 0em;
+        padding: 0em;
+    }
+    nav li {
+        display: list-item;
+    }
+    nav a {
+        font-weight: bold;
+        border-style: none;
+    }
+    nav ul li {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    #main {
+        padding-top: 10px;
+        margin: 0em;
+        font-size: 90%;
+    }
+    #farmersprotests {
+        background-image: none;
+        height: auto;
+    }
+    #farmbills {
+        background-image: none;
+        height: auto;
+    }
+    #protests {
+        background-image: none;
+        height: auto;
+    }
+    #farmers11 {
+        background-image: none;
+        height: auto;
+    }
+    #carrally {
+        background-image: none;
+        height: auto;
+    }
+    #farmers26 {
+        padding-bottom: 1.0em;
+        padding-right: 1.0em;
+        width: 160px;
+        height: 165px;
+    }
+    #present {
+        padding-bottom: 1em;
+        padding-right: 1em;
+        width: 160px;
+        height: 165px;
+    }
+    .h2 {
+        font-size: 1.6em;
+    }
+    .h3 {
+        font-size: 1.4em;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+    .h4 {
+        font-size: 1.1em;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+    .p {
+        font-size: 0.9em;
+        position: relative;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+    
+    .ulper {
+        font-size: 0.9em;
+        list-style-type: none;
+    }
+    .ulref {
+        font-size: 0.9em;
+    }
+    .dt {
+        font-size: 1.1em;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+    .dd {
+        font-size: 0.9em;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .body {
+        min-width: auto;
+    }
+   
+    header {
+        background-size: 70px;
+        height: auto;
+    }
+    header h1 {
+        font-size: 1.5em;
+        margin-top: 0em;
+        margin-bottom: 0.6em;
+        padding-top: 0.5em;
+        padding-bottom: 0em;
+    }
+    .nav {
+        margin: 0em;
+        width: auto;
+        
+    }
+    nav ul {
+        font-size: 0.8em;
+    }
+    nav ul li {
+        padding-bottom: 0px;
+    }
+    nav li {
+        display: block;
+    }
+    nav a {
+        display: block;
+        padding: 0.2em;
+        width: auto;
+    }
+    #main {
+        padding-top: 1px;
+        font-size: 80%;
+    }
+   
+    #farmers26 {
+        padding-bottom: 0em;
+        padding-right: 0.5em;
+        width: 130px;
+        height: 145px;
+    }
+    #present {
+        padding-bottom: 0em;
+        padding-right: 0.5em;
+        width: 130px;
+        height: 145px;
+    }
+    .h2 {
+        font-size: 1.5em;
+    }
+    .h3 {
+        font-size: 1em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    .h4 {
+        font-size: 0.9em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    .p {
+        font-size: 0.8em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    .ul {
+        margin: 0em;
+        padding: 0em;
+    }
+    .ulper {
+        font-size: 0.8em;
+        list-style-type: none;
+    }
+    .ulref {
+        font-size: 0.8em;
+    }
+    .dt {
+        font-size: 0.9em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    .dd {
+        font-size: 0.8em;
+        padding-bottom: 10px;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+}
